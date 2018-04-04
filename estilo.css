@@ -1,0 +1,204 @@
+	body{
+		background:url(imagens/background.jpg); /*inserção da imagem de fundo em todo o site*/
+		background-size: cover;
+		background-position: 30%, 45%;
+		color:#DCDCDC; /*cor padrão para todas as fontes*/
+		font-family: "Open Sans", Helvetica, sans-serif, arial; 
+		font-weight: 300; /*indica que a fonte está coonfigurada como Open Sans Light*/
+		line-height: 22px;/*altura da linha*/
+		text-align: left; /*alinhando o texto à esquerda*/
+		text-shadow:1px 1px 1px #1C1C1C;
+	}
+	.center{
+		margin: 0 auto; /*centralizando o conteúdo no navegador*/
+		max-width: 1200px; /*largura do layout*/
+		width: 90%;		
+	}
+	.clearfix:before, .clearfix:after {
+	    content: " "; 
+	    display: table; 
+	}
+	.clearfix:after {
+	    clear: both;
+	}
+	.clearfix {
+	    *zoom: 1;
+	}
+	/*fim do clearfix*/
+	img, picture, video, embed {
+	    max-width: 100%; /*define a largura máxima em até 100%*/
+	}
+	h1, h2{
+	color:#1C1C1C;
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	font-weight: 800;
+	letter-spacing: 0px; /*espaçamento entre as letras*/
+	line-height: 60px;
+	text-shadow:0.5px 0.5px 0px #FFFAFA;
+	}
+	h3{
+		font-size: 20px;
+		font-weight: 300;
+		letter-spacing: -2px; /*espaçamento entre as letras*/
+		line-height: 10px;
+	}
+	p{
+		font-weight: 300;/*modifica a força da fonte para light*/
+		letter-spacing: -1px; /*espaçamento entre as letras*/
+	}
+	a, a:link, a:visited{
+		color:#FE9380; /*cor dos links*/
+		font-weight:400; /*modifica a força da fonte para semi-bold*/
+		text-decoration:none; /*retira o sublinhado dos links*/
+	}
+	a:hover{
+		color:#FE5E41;
+		text-decoration:underline; /*inseri uma linha sob o link*/
+		text-shadow:none; /*retira a sombra da fonte*/
+	}
+	header{
+		border-bottom: 1px solid #E0E0E0; /*borda na base da seção*/
+		height:150px;
+		width:100%; /*largura do topo*/
+	}
+	/*
+	=========================
+	arquivo
+	=========================
+	*/
+	header h1 a{
+		background:url(imagens/foto_perfil.jpg) no-repeat; /*arquivo*/
+		display:block; /*torna o link como um bloco, um retângulo*/
+		float:left; /*posiciona o arquivo à esquerda do site*/
+		height:139px; /*altura da imagem*/
+		text-indent:-9999; /*recuo para ocultar texto à esquerda*/
+		width:58.333333333333%; /*largura da imagem*/
+	}
+	nav{
+	float:right; /*posiciona menu à direita*/
+	margin-top:78px; /*distância do menu à margem superior do navegador*/
+	text-align:right; /*alinha os links à direita*/
+	width:41.6666666666667%;
+	}
+	nav ul{
+		list-style-type:none; 
+	}
+		nav li {
+			display: inline; 
+		}
+			nav ul li a{
+				margin-right: 2.5%; /* 30px ÷ 1200px = 0.025 x 100 = 2.5%*/
+			}
+				nav ul li:nth-child(5) a{
+					margin-right:0; 
+				}
+			nav a:link, nav a:visited{
+				color:#999;
+				font-size: 1.2222222222em; /* 22px ÷ 18px = 1.2222222222em */
+				font-weight: 300;
+				letter-spacing: -0.0909090909em; /* -2px ÷ 22px = -0.0909090909em */
+				line-height: 1.18181818182em; /* 26px ÷ 22px = 1.18181818182em */
+				display:inline-block;
+			}
+			nav a.ativo:link, nav a:hover{
+				color:#FE9380; 
+			}
+	.chamada{
+		height:150px;
+		text-align:center;
+		width:100%;
+	}
+	h2 span{
+		font-size: 1em; /* 60px ÷ 60px = 1em */
+		font-weight: 300;
+		letter-spacing: -0.0333333333em; /* -2px ÷ 60px = 0.0333333333em */
+		line-height: 1em;
+	}
+	.chamada h3 {
+		margin: 0 auto;
+		width:75%;
+	}
+	.container{
+	background-color:(184,134,11);
+	margin:auto;
+	height: 300px;
+	padding:2%;
+	width: 95%;
+	max-width:700px;*/
+	}
+	.container h3{
+	color:(184,134,11);
+	font-size: 1.77777777778em; /* 32px ÷ 18px = 1.77777777778em */
+	font-weight: 300;
+	letter-spacing: -0.0625em; /* -2px ÷ 32px = 0.0625em */
+	margin-bottom: 0px;
+	margin-right: 0px;
+	text-shadow:2px 2px 2px #000000;
+	}
+	.container p{
+		background-color:(184,134,11);
+		float:left;
+		height:60px;
+		padding: 2%; /* 7px ÷ 360px =  0.019444444444444445 x 100 =  1.9444444444444445%*/
+		position:absolute;
+		width-max:100%; /* 360px ÷ 360px = 1 x 100 = 100%*/
+		text-align:justify;
+		text-shadow: 2px 2px 2px #000000;
+		top:225px;
+	}
+	.container figure{
+		margin: 10px auto 0px auto; 
+		width:100%; /* 250px ÷ 360px = 0.6944444444444 x 100 = 69.44444444444444%*/
+	}
+	.trabalho, .faculdade{
+		float:left;
+		position:relative;
+		text-align:center;
+		width:45%;
+	}
+	.trabalho, .faculdade{
+		margin-right:5%;
+	}
+	.faculdade{
+		background-color:(184,134,11);*/
+		margin:auto;
+		margin-right:10px;
+	}
+	.trabalho{
+		background-color:(184,134,11);*/
+	}
+	/*
+	=========================
+	formatação do botão
+	=========================
+	*/
+	span.btn{
+		font-size: 1em; /* 20px ÷ 18px = 1.1111111111em */
+		font-weight: 300;
+		letter-spacing: -0.1em; /* -2px ÷ 20px = -0.1em */
+		height:25px;
+		margin-top: 30px;
+		position:relative;
+		right: 1px;
+		text-align:center;
+		width:33.33333333333333%;
+		text-shadow:1px 1px 1px #FFFAFA;
+	}
+	span.btn a{
+		color:#000000;
+		padding: 2px 3.333333333333333%;
+		text-shadow:#fff;
+	}
+	footer{
+		clear:both;
+		height: 50px;
+		padding: 10px 0;
+		width:100%;
+	}
+	.contato{
+		float:left;
+		margin-left:2.5%;
+		font-color:#FFFAFA;
+		text-shadow:1px 1px 1px #000000;
+	}
