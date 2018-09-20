@@ -1,5 +1,5 @@
-	body{
-		background:url(imagens/background.jpg); /*inserção da imagem de fundo em todo o site*/
+﻿	body{
+		background:url(background.jpg); /*inserção da imagem de fundo em todo o site*/
 		background-size: cover;
 		background-position: 30%, 45%;
 		color:#DCDCDC; /*cor padrão para todas as fontes*/
